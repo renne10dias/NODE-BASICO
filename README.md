@@ -1,6 +1,5 @@
 # NODE-BÁSICO
-
-Projeto de um CRUD básico mostrando as etapas de uma construção de uma API REST usando o NODEJS e a biblioteca EXPRESS
+Projeto de um CRUD básico mostrando as etapas de construção de uma API REST usando o NODEJS e a biblioteca EXPRESS
 
 ## 🚀 Começando
 
@@ -11,87 +10,69 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 ### 📋 Pré-requisitos
 
 
-De que coisas você precisa para instalar o software e como instalá-lo?
 Para execultar o software, você precisa ter os seguintes programas instalados em sem computador.
 - node js
 - vscode
 
-```
-node js
-npm
-nodemon
-```
-
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Siga o passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
+Faça o clone desse projeto usando os seguintes comandos do github:
 
 ```
-Até finalizar
+git clone https://github.com/renne10dias/NODE-BASICO.git
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+Após clonar o projeto em sua pasta na sua maquina, execulte o seguinte comando:
+
+```
+npm run dev
+```
+
+O terminal deve mostrar algo parecido com isso.
+
+```
+> dominando-nodejs@1.0.0 dev
+> nodemon index.js
+
+[nodemon] 3.1.0
+[nodemon] to restart at any time, enter `rs`  
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+```
+PRONTO, o projeto já está em execução.
 
 ## ⚙️ Executando os testes
 
 Explicar como executar os testes automatizados para este sistema.
 
-### 🔩 Analise os testes de ponta a ponta
+### 🔩 Rotas para acesso a API REST do projeto.
 
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
+Rotas responsaveis para realizar as funcionalidades do projeto.
 
 ```
 Dar exemplos
 ```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+Ferramentas usadas para a criação desse projeto.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+* [Node.js®](https://nodejs.org/en) - é um ambiente de execução JavaScript gratuito, de código aberto e multiplataforma.
+* [Express](https://expressjs.com/) - Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web.
+* [Nodemon](https://expressjs.com/) - O nodemon e uma biblioteca usada para realizar o autoloading do projeto.
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+* **Renne Dias** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (projetosdiasdev) - visite o [SITE](https://projetosdiasdev.com).
 
 ## 🎁 Expressões de gratidão
 
