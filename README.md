@@ -52,8 +52,28 @@ Explicar como executar os testes automatizados para este sistema.
 
 Rotas responsaveis para realizar as funcionalidades do projeto.
 
+GET - Listagem e busca de customers
+
 ```
-Dar exemplos
+http://localhost:3000/customers/
+http://localhost:3000/customers/3
+```
+POST - Inserção de customers
+
+```
+http://localhost:3000/customers
+```
+
+PUT - Atualiza o customers
+
+```
+http://localhost:3000/customers/1
+```
+
+DELETE - Apaga o customers
+
+```
+http://localhost:3000/customers/1
 ```
 
 ## 🛠️ Construído com
@@ -62,7 +82,7 @@ Ferramentas usadas para a criação desse projeto.
 
 * [Node.js®](https://nodejs.org/en) - é um ambiente de execução JavaScript gratuito, de código aberto e multiplataforma.
 * [Express](https://expressjs.com/) - Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web.
-* [Nodemon](https://expressjs.com/) - O nodemon e uma biblioteca usada para realizar o autoloading do projeto.
+* [Nodemon](https://www.npmjs.com/package/nodemon) - O nodemon e uma biblioteca usada para realizar o autoloading do projeto.
 
 ## ✒️ Autores
 
