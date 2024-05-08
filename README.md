@@ -1,6 +1,6 @@
 # NODE-BÁSICO
 
-Um parágrafo da descrição do projeto vai aqui
+Projeto de um CRUD básico mostrando as etapas de uma construção de uma API REST usando o NODEJS e a biblioteca EXPRESS
 
 ## 🚀 Começando
 
@@ -10,10 +10,16 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 ### 📋 Pré-requisitos
 
+
 De que coisas você precisa para instalar o software e como instalá-lo?
+Para execultar o software, você precisa ter os seguintes programas instalados em sem computador.
+- node js
+- vscode
 
 ```
-Dar exemplos
+node js
+npm
+nodemon
 ```
 
 ### 🔧 Instalação
